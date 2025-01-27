@@ -1,0 +1,14 @@
+/*
+    background-color: black;
+    color: white;
+}
+
+h1 {
+    text-decoration: underline;
+
+}
+*/
+
+button {
+    display: block; /* This hides the button */
+  }
