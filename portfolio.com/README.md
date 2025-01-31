@@ -14,5 +14,10 @@ FONT-AWESOME
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 
+NAVIGATION SECTION
+
+This section is built using just html and css and everything is enclosed in a div called navbar and my official  logo #DBARRYCK#
+
+
 
 

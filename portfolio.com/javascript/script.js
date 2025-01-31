@@ -1,3 +1,4 @@
-document.getElementById("clickMe").addEventListener("click", function () {
-    alert("Button clicked!");
+
+  document.querySelector(".menu-toggle").addEventListener("click", function() {
+    document.querySelector(".nav-links").classList.toggle("active");
   });

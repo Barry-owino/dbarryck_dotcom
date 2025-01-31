@@ -17,6 +17,112 @@ body {
     font-family: 'Poppins', sans-serif;
   }
 
-button {
-    display: block; /* This hides the button */
+  .main-container {
+    background-color: white;
+    margin-top: 20px;
+    
   }
+
+  .navbar{
+    background-color: red;
+    margin-left: 80px;
+    margin-right: 80px;
+    padding: 10px;
+    min-height: 200px;
+    min-width: none;
+  }
+  
+  /* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Navigation Bar */
+header {
+  background: #333;
+  padding: 15px 30px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  border-radius: 5px;
+  background-color: azure;
+  color: #333;
+  padding: 5px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin-left: 20px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav-links a:hover {
+  color: grey;
+}
+
+/* CTA Button Styling */
+.nav-links .cta {
+  background: white;
+  color: #333;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.nav-links .cta:hover {
+  background: #e76f51;
+  color: white;
+}
+
+
+
+
+/*This section is for responsive design purposes*/
+
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    background: #333;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    width: 200px;
+    padding: 10px;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  .menu-toggle {
+    display: block;
+    font-size: 24px;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+  }
+}
+
