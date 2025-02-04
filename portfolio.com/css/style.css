@@ -1,13 +1,3 @@
-/*
-    background-color: black;
-    color: white;
-}
-
-h1 {
-    text-decoration: underline;
-
-}
-*/
 
 body {
     background-image: url('/images/bolt.'); /* Path to your image */
@@ -24,7 +14,7 @@ body {
   }
 
   .navbar{
-    background-color: red;
+    background-color: grey;
     margin-left: 80px;
     margin-right: 80px;
     padding: 10px;
@@ -33,7 +23,7 @@ body {
   }
 
   .hero {
-    background-color: green;
+    background-color: grey;
     margin-left: 80px;
     margin-right: 80px;
     padding: 10px;
@@ -45,11 +35,11 @@ body {
 
   .hero > div {
     flex: 1;
-    background-color: aliceblue;
+    background-color: aliceblu;
   }
 
   .hero .intro{
-    background-color: black;
+    background-color: blac;
     color: #fff;
   }
   
@@ -114,6 +104,21 @@ nav {
 .nav-links .cta:hover {
   background: #e76f51;
   color: white;
+}
+
+/*This section is for the buttons in the hero section*/
+.btn {
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.btn button {
+  font-size: large;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px;
+  padding: 10px;
+  border-style: none;
 }
 
 
