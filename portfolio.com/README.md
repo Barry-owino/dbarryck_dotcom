@@ -18,6 +18,9 @@ NAVIGATION SECTION
 
 This section is built using just html and css and everything is enclosed in a div called navbar and my official  logo #DBARRYCK#
 
+HERO SECTION
+Setting up the hero section and added the photo div and the call to action buttons.
+
 
 
 
