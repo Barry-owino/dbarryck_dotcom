@@ -10,7 +10,7 @@ h1 {
 */
 
 body {
-    background-image: url('/images/bolt.png'); /* Path to your image */
+    background-image: url('/images/bolt.'); /* Path to your image */
     background-size: cover; /* Makes the image cover the entire screen */
     background-repeat: no-repeat; /* Prevents the image from repeating */
     background-position: center; /* Centers the image */
@@ -28,8 +28,29 @@ body {
     margin-left: 80px;
     margin-right: 80px;
     padding: 10px;
-    min-height: 200px;
+    min-height: 60px;
     min-width: none;
+  }
+
+  .hero {
+    background-color: green;
+    margin-left: 80px;
+    margin-right: 80px;
+    padding: 10px;
+    min-height: 250px;
+    min-width: none;
+    display: flex;
+
+  }
+
+  .hero > div {
+    flex: 1;
+    background-color: aliceblue;
+  }
+
+  .hero .intro{
+    background-color: black;
+    color: #fff;
   }
   
   /* Basic Reset */
